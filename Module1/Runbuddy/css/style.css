@@ -1,0 +1,306 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: blue;
+   width: 100%;
+   height: 50px;
+ 
+}
+
+.logo{
+    float: left;
+    color:#F7F44A;
+    padding-top: 8px;
+    padding-left: 30px;  
+    
+}
+
+.navbar{
+    float: right;
+    width: 50%;  
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     }
+  
+  li {
+    float: right;
+    padding-right: 30px;
+    padding-top: 15px;
+    color: #F7F44A;
+    font-size: 20px;
+
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .hero-section{
+    
+      background-image:url('../Images/Running.jpg');
+      height: 500px;
+      background-size: 1500px;
+      background-repeat: no-repeat;
+               
+           
+  }
+  
+
+.form{
+    background-color: #F7F44A;
+    color: blue;
+    border: 5px solid blue;
+    float: right;
+    margin-right:50px ;
+    margin-top: 20px;
+    padding:20px;      
+
+}
+
+input[type=text]{
+  width:100%;        
+}
+
+.form h2{
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color: blue;
+    color: yellow;
+    padding:10px;
+}
+
+.h1{
+    color: rgb(4, 4, 73);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+    padding-top: 20px;
+    word-spacing: 1em;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.p{
+ color: rgb(44, 25, 214);
+ font-size: 20px;
+ padding:40px;
+ padding-top: 20px; 
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+   
+ 
+}
+
+
+.work-process{
+    background-color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: blue;
+    text-align: center;
+}
+
+.Ourtr{
+    background-color: rgb(5, 55, 102);
+    font-size: 20px;
+    color:yellow;
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+    float: right; 
+    margin-right: 15rem;     
+}
+
+.image1{
+    display: inline;
+    padding-top: 20px;
+    margin-left: 15rem;    
+    
+}
+
+.ourtr1{
+    background-color: rgb(5, 55, 102);
+    font-size: 20px;
+    color:yellow;
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+    float: right; 
+    margin-right: 15rem;    
+}
+
+.image2{
+    display: inline;
+    padding-top: 20px;
+    margin-left: 15rem;
+}
+
+.ourtr2{
+    background-color: rgb(5, 55, 102);
+    font-size: 20px;
+    color:yellow;
+    padding: 10px;
+    width: 400px;
+    text-align: left;
+    float: right; 
+    margin-right: 15rem;     
+}
+
+.image3{
+    display: inline;
+    padding-top: 20px;
+    margin-left: 15rem;
+}
+
+.hr-line{
+    background-color: yellow;
+    height: 2px;
+    width: 40%;
+}
+
+.text-cont h1{
+    margin:0;
+    padding:0;
+}
+
+.trainer-sec{
+    width:100%;
+    height: 300px;
+    
+}
+
+.trainer-container{
+    width:70%;
+    margin:auto;
+}
+
+.main-heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.hr-sec{
+    width:50%;
+    background-color: yellow;
+    height: 2px;
+
+}
+
+.img-sec{  
+    float: left;
+    width:35%;    
+
+}
+
+.text-cont{
+    background-color: darkblue;
+    float: right;
+    width:60%;
+    padding:23px;
+}
+
+.img1{
+    width: 100%;
+}
+
+.trainer-cont2{
+    width:100%;
+    background-color: aqua;
+    
+}
+
+.img-sec2{
+    width:70%;
+    margin: auto;
+}
+
+.img2{
+    float: left;
+    width:35.5%;
+    margin-top:30px;
+}
+
+.text-cont2{
+    background-color: darkblue;
+    float: right;
+    width:59.6%;
+    padding:22px;
+    margin-top: 30px;  
+}
+
+.trainer-cont3{
+    width:100%;
+    height: 600px;
+    
+}
+
+.img-sec3{
+    width:70%;
+    background-color: rgb(118, 194, 99);
+    margin: auto;
+}
+
+.img3{
+    float: left;
+    width:35.5%;
+    margin-top: 40px;
+}
+
+.text-cont3{
+    background-color: darkblue;
+    float: right;
+    width:59.6%;
+    padding:22px;
+    margin-top: 30px;  
+}
+
+.footer{
+    background-color: darkblue;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.map{
+    width:100%;
+    float: left;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
