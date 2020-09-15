@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Navigation-->
+    <header>
+        <h1>SHAMA KHAN</h1>
+        <nav>
+            <!--unordered list element-->
+            <ul>
+                <!--list item element-->
+                <li>
+                    <!--Anchor element-->
+                    <a href="#what-we-do">About Me</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">My Work</a>
+                </li>
+                <li>
+                    <a href="#your-trainers">Contact Me</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Resume</a>
+                </li>  
+                
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-section">
+        <div class="hero">
+        <h1>My Digital Extension</h1>
+        </div>
+    </section>
+    <section class="main-heading">
+        <div>
+            <p>
+                Illum minima fugiat, praesentium quaerat ipsam ipsum est ut reiciendis suscipit sint magnam et velit sequi. Laborum maxime sed sint.
+                Numquam aut eos quasi ipsa minima illum perspiciatis accusamus est aperiam aliquid reiciendis perferendis placeat sequi inventore dolore
+                assumenda suscipit, tempore natus? Necessitatibus corrupti nihil molestias velit incidunt saepe, ut cum, vero distinctio iure repudiandae.
+             </p>
+             <br>
+             <p>
+                Possimus obcaecati deserunt deleniti repellat quas! Quia omnis vitae nam autem voluptatem odit iste fugit minima? Repellat officiis, magnam, laboriosam, nulla
+                corporis aliquid ab veritatis libero voluptas provident ut. Vero illo quo, aperiam eaque ea illum sequi natus sed modi, odit optio ex voluptatem reprehenderit, earum expedita! Nostrum voluptatibus, eos ipsum cumque minima dolor similique officia, iusto sapiente blanditiis doloremque non animi consequatur. Omnis, aperiam ipsum. Dolor repellendus eaque doloremque consectetur, sequi
+                quas possimus consequatur repudiandae porro iste, praesentium cumque voluptatum, atque magnam expedita veritatis.
+             </p>
+        </div>
+
+        <div class="flex-container">
+            <div class="surf-report">
+                <div class="text">
+                    <h2>Surf Report</h2>
+                    <h6>MERN Stack</h6>
+                </div>
+            </div>
+    
+            <div class="led-wall">
+                <div class="text">
+                    <h2>LED Wall</h2>
+                <h6>Node/loe</h6>
+                </div>
+            </div>
+    
+            <div class="pasrel-puzzels">
+                <div class="text">
+                    <h2>Pastel Puzzels</h2>
+                <h6>MERN Stack</h6>
+                </div>
+            </div>
+    
+            <div class="run-buddy">
+                <div class="text">
+                    <h2>Run Buddy</h2>
+                <h6>HTML/CSS</h6>
+                </div>
+            </div>
+    
+            <div class="calculator">
+                <div class="text">
+                    <h2>Colculator</h2>
+                    <h6>React/JavaScript/CSS</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=sidebar>
+        <div class="about-me">
+            <h3>About Me</h3>
+        </div>
+
+        <div class="my-work">
+            <h3>My Work</h3>
+        </div>
+        
+        <div class="contact-info">
+            <h3>Contact Info</h3>
+        </div>
+    </section>
+
+    <footer class=footer>
+        <nav>
+            <!--unordered list element-->
+            <ul>
+                <!--list item element-->
+                <li>
+                    <!--Anchor element-->
+                    <a href="#what-we-do">555-555-5555</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">shamakhan_a@yahoo.com</a>
+                </li>
+                <li>
+                    <a href="#your-trainers">GITHUB</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Twitter</a>
+                    <a href="#">Spotify</a>
+                </li>  
+                
+            </ul>
+        </nav>
+    </footer>
+       
+    
+</body>
+</html>
+
+<body>
+    <style>
+      
+
+        *{
+            font-family: cursive;
+            margin: auto;
+        }
+        header{
+            padding: 20px 35px;
+            background-color: #130563; 
+        }
+
+        header h1{
+            font-weight: bold;
+            font-size: 30px;
+            color:white;
+            margin: 0;
+            display: inline;  
+        }
+
+        header a{
+            text-decoration: underline;
+            color:white;
+        }
+
+        header nav{
+            float: right;
+            margin: 5px 0.7;
+        }
+
+        header nav ul li{
+            display: inline;
+        }
+
+        header nav ul li a{
+            margin: 0 30px;
+            font-weight: lighter;
+            font-size: 20px; 
+        }
+
+        .hero{
+            width: 20%;
+            text-align: center;
+            float: right;
+            margin-top: 100px;
+            margin-right: 100px;
+            background-image: url('portfolioimg1.jpg');
+        }
+
+        .hero-section{
+            background-image: url("portfolioimg3.jpg");
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .main-heading{
+            width: 70%;
+            float: right;
+            padding-right: 50px;
+            padding-top: 20px;
+            color: mediumblue;
+            font-size: 15px;
+        }
+
+        .sidebar{ 
+            height: 700px;
+            display: grid;
+            grid-column:auto;
+            margin-top: 30px;
+        }
+
+        .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            padding: 0 4px;
+            
+        }
+
+        .flex-container > div{
+            background-color: powderblue;
+            width: 200px;
+            margin: 10px;
+            text-align: right;
+            height: 250px;
+            font-size: 15px;
+        }
+
+        .surf-report{
+            display: flex;
+            flex: 40%;
+            max-width: ;
+            text-align: right;
+            background-image: url("background.jpg");
+            border: 3px solid rgb(180, 237, 252);
+            
+            
+        }
+
+        .led-wall{
+            display: flex;
+            margin-top: 8px;
+            flex: 35%;
+            background-image:url("portfolioimg2.jpg");
+            border: 3px solid rgb(180, 237, 252); 
+        }
+
+        .pasrel-puzzels{
+            background-image: url("back.jpg");
+            border: 3px solid rgb(180, 237, 252);
+            display: flex;
+            margin-top: 8px;
+            flex: 20%; 
+        }
+
+        .run-buddy{
+            background-image: url("portfolioimg1.jpg");
+            border: 3px solid rgb(180, 237, 252);
+            display: flex;
+            margin-top: 8px;
+            flex: 15%;  
+        }
+
+        .calculator{
+            display: flex;
+            margin-top: 8px;
+            flex: 25%;
+            background-image: url("background2.jpg");
+            border: 3px solid rgb(180, 237, 252);  
+        }
+
+        .text{
+            text-align: left;
+           background-color: lightskyblue;
+        }
+
+        .about-me{
+            font-size: 30px;
+            border-right: 3px solid blue;
+            color: blue;
+            width: 150px;
+           
+           
+        }
+
+        .my-work{
+            font-size: 30px;
+            border-right: 3px solid blue;
+            color: blue;
+            width: 150px;
+            
+        }
+
+        .contact-info{
+            font-size: 30px;
+            border-right: 3px solid blue;
+            color: blue;
+            width: 150px;
+            
+        }
+
+        footer {
+            margin-bottom: 60px;
+        }
+        
+    </style>
+</body>
